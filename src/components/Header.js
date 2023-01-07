@@ -73,6 +73,7 @@ align-items:center;
 justify-content:center;
 
 a {
+  
   font-weight:500;
   text-transform:uppercase;
   padding:0 10px;
@@ -84,9 +85,10 @@ a {
 `
 
 const RightMenu= styled.div`
-dislay:flex;
+display:flex;
 justify-content:center;
 align-items:center;
+align-text:center;
 
 a {
   font-weight:500;
