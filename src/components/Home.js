@@ -1,10 +1,12 @@
 import React from 'react'
 import styled from 'styled-components';
 import Section from './Section';
+import { FullPage, Slide } from 'react-full-page';
 
 function Home() {
   return (
     <Container>
+      
             <Section
               title="Model S"
               description="Order Online for Touchless Deliver"

@@ -1,13 +1,24 @@
+
 *{
   box-sizing: border-box;
-  font-family: Arial, Helvetica, sans-serif;
-  color:#393c41;
+  color:rgb(23,26,32);
+  
   margin: 0;
   padding: 0;
+
+
+}
+@font-face {
+  font-family: 'gothamSSm';
+  src: url(/src/gothamSSm.otf);
 }
 body{
   overflow-x: hidden;
   width: 100%;
+  font-family: gothamSSm;
+  font-weight: 500;
+  
+
   
 }
 @keyframes animateDown {
@@ -20,4 +31,8 @@ body{
   60%{
     transform: translateY(3px);
   }
+}
+
+a{
+  text-decoration: none;
 }
